@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-template",
+  "name": "alex-dien-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:3000/react-portfolio-template",
+  "homepage": "https://dienalex.github.io/alex-dien-portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "gh-pages": "^6.3.0"
   }
 }
