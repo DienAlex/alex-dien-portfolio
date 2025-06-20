@@ -6,39 +6,52 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
+        "SEO",
+        "React",
     "TypeScript",
-    "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
+    "Figma",
+    "Media",
+    "Adobe",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Salesforce",
+    "Hubspot",
+    "GTM",
+    "Client-facing",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
+    "Tensorflow",
+    "Pytorch",
+    "Python",
+    "R",
+    "SQL",
+    "Unity",
+    "C#",
+    "JavaScript",
+    "Excel",
+    "SPSS",
+    "Regressions",
     "Pandas",
-    "Selenium",
+    "Shiny",
+    "Hugging Face",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "UX/UI",
+    "Strategy",
+    "Forecasting",
+    "Pricing",
+    "Product Design",
+    "Trello",
+    "Jira",
+    "Kanban",
+    "Agile",
+    "Scrum",
+    "Roadmap",
+    "Start-Ups",
+    "User Research",
 ];
 
 function Expertise() {
@@ -49,8 +62,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Marketing, Advertising & Web Development</h3>
+                    <p>I bring products to market through a blend of strategic marketing and technical execution. From A/B testing ad creatives to building landing pages and analytics tools, I focus on growing visibility and conversions. I run full-funnel campaigns across paid social, email, and web, using experimentation and performance data to refine targeting, messaging, and creative. My work bridges creative marketing with the infrastructure needed to scale results.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +74,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Data Analytics & AI/ML</h3>
+                    <p>I translate complex datasets into solutions. I work end-to-end across data and AI pipelines, starting with analytics and ending with production-ready machine learning tools. I have supported data scraping, wrangling, and dashboarding projects to surface actionable insights. Combining the two, I manage data infrastructure to support training, testing, and deployment of machine learning models.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +86,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Product Management</h3>
+                    <p>I approach product management with a focus on technicality, user insight, and cross-functional execution. I have led projects from ideation to launch—working with engineers, designers, and analysts to define roadmaps, run tests, and deliver user-centered features. With a background in data and marketing, I translate customer needs into scalable solutions and prioritize based on impact and feasibility.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
