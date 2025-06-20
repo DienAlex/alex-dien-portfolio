@@ -5,7 +5,12 @@ Portfolio website built using
 
 <a href="https://dienalex.github.io/alex-dien-portfolio" target="_blank">**Visit Now**</a>
 
-<h2>📬 Contact</h2>
+<h2>Portfolio Preview</h2>
+
+![Sneak Peak of Portfolio](images/preview_website_AD.png)
+
+
+<h2>Contact</h2>
 
 Feel free to reach me through the below handles if you'd like to contact me.
 
