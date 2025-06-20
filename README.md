@@ -7,7 +7,7 @@ Portfolio website built using
 
 <h2>Portfolio Preview</h2>
 
-![Sneak Peak of Portfolio](images/preview_website_AD.png)
+![Sneak Peak of Portfolio](/src/assets/images/preview_website_AD.png)
 
 
 <h2>Contact</h2>
