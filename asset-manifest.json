@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alex-dien-portfolio/static/css/main.262c021a.css",
-    "main.js": "/alex-dien-portfolio/static/js/main.16cabb37.js",
-    "static/js/453.b05d8aa5.chunk.js": "/alex-dien-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "main.js": "/alex-dien-portfolio/static/js/main.c6f352b1.js",
+    "static/js/453.a1b6b378.chunk.js": "/alex-dien-portfolio/static/js/453.a1b6b378.chunk.js",
     "static/media/bg-light.png": "/alex-dien-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/alex-dien-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/webmock7.png": "/alex-dien-portfolio/static/media/webmock7.ee90374954faff6857d7.png",
@@ -15,11 +15,11 @@
     "static/media/webmock3.png": "/alex-dien-portfolio/static/media/webmock3.696bb7a52cd1f379e796.png",
     "index.html": "/alex-dien-portfolio/index.html",
     "main.262c021a.css.map": "/alex-dien-portfolio/static/css/main.262c021a.css.map",
-    "main.16cabb37.js.map": "/alex-dien-portfolio/static/js/main.16cabb37.js.map",
-    "453.b05d8aa5.chunk.js.map": "/alex-dien-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+    "main.c6f352b1.js.map": "/alex-dien-portfolio/static/js/main.c6f352b1.js.map",
+    "453.a1b6b378.chunk.js.map": "/alex-dien-portfolio/static/js/453.a1b6b378.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.262c021a.css",
-    "static/js/main.16cabb37.js"
+    "static/js/main.c6f352b1.js"
   ]
 }
