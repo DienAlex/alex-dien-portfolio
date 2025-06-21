@@ -31,8 +31,8 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://www.p-ai.org/" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.p-ai.org/" target="_blank" rel="noreferrer"><h2>P-AI: AI Pokemon Battler</h2></a>
-                <p>Built a suite of visual analytics using regression discontinuity design to assess the effects of a price change on demand and revenue trends.</p>
+                <a href="https://www.p-ai.org/" target="_blank" rel="noreferrer"><h2>P-AI: AI Pokémon Battler</h2></a>
+                <p>Built a reinforcement-based machine learning system using PyTorch and the Pokémon Showdown API to help players make optimal in-game decisions. The agent combined decision trees with a reinforcement learning model to evaluate board states, recommend the best possible moves, and continuously calculate win probabilities in real time. </p>
             </div>
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>

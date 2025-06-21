@@ -87,7 +87,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Product Management</h3>
-                    <p>I approach product management with a focus on technicality, user insight, and cross-functional execution. I have led projects from ideation to launch—working with engineers, designers, and analysts to define roadmaps, run tests, and deliver user-centered features. With a background in data and marketing, I translate customer needs into scalable solutions and prioritize based on impact and feasibility.</p>
+                    <p>I approach product management with a focus on technicality, user insight, and cross-functional execution. I have led projects from ideation to launch, working with engineers, designers, and analysts to define roadmaps, run tests, and deliver user-centered features. With a background in data and marketing, I translate customer needs into scalable solutions and prioritize based on impact and feasibility.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
