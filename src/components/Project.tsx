@@ -52,7 +52,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Multiple Regression on EVs</h2></a>
-                <p>Analyzed demographic predictors of transportation expenditure using ordered probit regression. Presented marginal effects and descriptive statistics in publication-ready tables to demonstrate correlations between age, income, and vehicle preferences.</p>
+                <p>Analyzed demographic predictors of transportation expenditure using ordered probit regression. Presented marginal effects and descriptive statistics to demonstrate correlations between age, income, and vehicle preferences.</p>
             </div>
         </div>
     </div>
