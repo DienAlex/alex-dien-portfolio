@@ -37,7 +37,7 @@ const jobDetails: Record<string, React.ReactNode> = {
       ),
   "Samba TV": (
     <ul>
-      <li>MDrove products from conception to implementation, furthering relationships and rapport with partnered companies and clients in the AD-Tech space, proposed project ideas later developed</li>
+      <li>Drove products from conception to implementation, furthering relationships and rapport with partnered companies and clients in the AD-Tech space, proposed project ideas later developed</li>
       <li>Jointed efforts with the Data and Sales teams, drawing technical data through Salesforce and HubSpot to supply teams with data-backed narratives with Excel for GTM teams and B2B sales</li>
     </ul>
       ),

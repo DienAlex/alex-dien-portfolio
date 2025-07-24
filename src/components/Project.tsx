@@ -17,12 +17,12 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Interactive Dashboard</h2></a>
-                <p>Developed digital dashboard interface featuring real-time data. The charts display metrics like demand, activity, and load patterns using R, Shiny.io, Java, and SQL.</p>
+                <p>Developed digital dashboard interface featuring real-time data updates for clients. The charts display metrics like demand, activity, and load patterns using R, Shiny.io, Java, and SQL.</p>
             </div>
             <div className="project">
                 <a href="https://scholarship.claremont.edu/cmc_theses/3795/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://scholarship.claremont.edu/cmc_theses/3795/" target="_blank" rel="noreferrer"><h2>Economic and Moral Decisions in Video Games</h2></a>
-                <p>Conducted an experimental study on empathy and economic choices in video games, using interactive fiction to simulate decision-making environments.</p>
+                <p>Conducted an experimental study on empathy and economic choices in video games, using interactive fiction to simulate decision-making environments. Extensively covers topics such as violence in video games, in-game economies, AI and NPC interaction.</p>
             </div>
             <div className="project">
                 <a href="https://www.cmc.edu/kli" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -37,7 +37,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Data Consulting Project</h2></a>
-                <p>Built a suite of visual analytics using regression discontinuity design to assess the effects of a price change on weekly demand and revenue trends.  </p>
+                <p>Built a suite of visual analytics using regression discontinuity design to assess the effects of a price change on weekly demand and revenue trends for clients. Presented deliverables and reports to stakeholders, leading to the adoption of a new pricing strategy that is now in the early stages of implementation. </p>
             </div>
             <div className="project">
                 <a href="https://drive.google.com/file/d/1fZPQFhVXt9idEiSfjJFWY1zFtLbCD2Gi/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -47,12 +47,12 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Regression on Teacher Salaries</h2></a>
-                <p>Analyzed demographic predictors of transportation expenditure using ordered probit regression. Presented marginal effects and descriptive statistics in publication-ready tables to demonstrate correlations between age, income, and vehicle preferences.</p>
+                <p>Led a multivariable regression case study examining the impact of housing prices, GDP, tax rates, and demographics on county-level teacher salaries. </p>
             </div>
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Multiple Regression on EVs</h2></a>
-                <p>Led a multivariable regression project examining the impact of housing prices, GDP, tax rates, and demographics on county-level teacher salaries. </p>
+                <p>Analyzed demographic predictors of transportation expenditure using ordered probit regression. Presented marginal effects and descriptive statistics in publication-ready tables to demonstrate correlations between age, income, and vehicle preferences.</p>
             </div>
         </div>
     </div>
