@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/alex-dien-portfolio/static/css/main.262c021a.css",
-    "main.js": "/alex-dien-portfolio/static/js/main.95e9cda4.js",
-    "static/js/453.a1b6b378.chunk.js": "/alex-dien-portfolio/static/js/453.a1b6b378.chunk.js",
-    "static/media/bg-light.png": "/alex-dien-portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/alex-dien-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/webmock7.png": "/alex-dien-portfolio/static/media/webmock7.ee90374954faff6857d7.png",
-    "static/media/webmock6.png": "/alex-dien-portfolio/static/media/webmock6.158651ac70db8e40d291.png",
-    "static/media/webmock1.png": "/alex-dien-portfolio/static/media/webmock1.9eb5eddcfd9f6a3012a9.png",
-    "static/media/webmock5.png": "/alex-dien-portfolio/static/media/webmock5.37cd4dd0dcbd95ac6b23.png",
-    "static/media/webmock2.png": "/alex-dien-portfolio/static/media/webmock2.6dd81e8b29a00d17b1e6.png",
-    "static/media/Untitled presentation.png": "/alex-dien-portfolio/static/media/Untitled presentation.e35b578e240dd8a814d6.png",
-    "static/media/webmock4.png": "/alex-dien-portfolio/static/media/webmock4.66ea0a56718609db1da3.png",
-    "static/media/webmock3.png": "/alex-dien-portfolio/static/media/webmock3.696bb7a52cd1f379e796.png",
-    "index.html": "/alex-dien-portfolio/index.html",
-    "main.262c021a.css.map": "/alex-dien-portfolio/static/css/main.262c021a.css.map",
-    "main.95e9cda4.js.map": "/alex-dien-portfolio/static/js/main.95e9cda4.js.map",
-    "453.a1b6b378.chunk.js.map": "/alex-dien-portfolio/static/js/453.a1b6b378.chunk.js.map"
+    "main.css": "/static/css/main.37c16df3.css",
+    "main.js": "/static/js/main.4a04dda7.js",
+    "static/js/453.a1b6b378.chunk.js": "/static/js/453.a1b6b378.chunk.js",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/webmock7.png": "/static/media/webmock7.ee90374954faff6857d7.png",
+    "static/media/webmock6.png": "/static/media/webmock6.158651ac70db8e40d291.png",
+    "static/media/webmock1.png": "/static/media/webmock1.9eb5eddcfd9f6a3012a9.png",
+    "static/media/webmock5.png": "/static/media/webmock5.37cd4dd0dcbd95ac6b23.png",
+    "static/media/webmock2.png": "/static/media/webmock2.6dd81e8b29a00d17b1e6.png",
+    "static/media/Untitled presentation.png": "/static/media/Untitled presentation.e35b578e240dd8a814d6.png",
+    "static/media/webmock4.png": "/static/media/webmock4.66ea0a56718609db1da3.png",
+    "static/media/webmock3.png": "/static/media/webmock3.696bb7a52cd1f379e796.png",
+    "index.html": "/index.html",
+    "main.37c16df3.css.map": "/static/css/main.37c16df3.css.map",
+    "main.4a04dda7.js.map": "/static/js/main.4a04dda7.js.map",
+    "453.a1b6b378.chunk.js.map": "/static/js/453.a1b6b378.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.262c021a.css",
-    "static/js/main.95e9cda4.js"
+    "static/css/main.37c16df3.css",
+    "static/js/main.4a04dda7.js"
   ]
 }
