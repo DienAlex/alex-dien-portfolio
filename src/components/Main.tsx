@@ -34,7 +34,7 @@ function Main() {
       <div className="about-section" style={{ position: 'relative', zIndex: 1 }}>
         <div className="image-wrapper">
           <img
-            src="https://media.licdn.com/dms/image/v2/C4E03AQGPy8HyCimEXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1648074839629?e=1755129600&v=beta&t=e5wbgIWMadiHpSVdkb3z7BumtU8vkHtRP5z8jBi99iw"
+            src="https://media.licdn.com/dms/image/v2/D5603AQG40-yl-QoZfA/profile-displayphoto-scale_400_400/B56ZmWj.RHHUAg-/0/1759167637195?e=1762387200&v=beta&t=tOr4CvjbmjnIYVek-DwOqWy8HQmGABespwkc8wywA8E"
             alt="Avatar"
           />
         </div>
