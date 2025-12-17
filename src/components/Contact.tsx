@@ -31,20 +31,30 @@ function Contact() {
     setMessageError(hasError.message);
 
     if (!hasError.name && !hasError.email && !hasError.message) {
+      // EmailJS Setup Instructions:
+      // 1. Sign up at https://www.emailjs.com/
+      // 2. Add an email service (e.g., Gmail)
+      // 3. Create an email template with variables: {{from_name}}, {{reply_to}}, {{message}}
+      // 4. In template settings, set "Send To" email to: adien25@cmc.edu
+      // 5. Get your Service ID, Template ID, and Public Key from EmailJS dashboard
+      // 6. Replace the values below with your actual EmailJS credentials
+
       emailjs.sendForm(
-        'your_service_id',      // Replace with your actual EmailJS service ID
-        'your_template_id',     // Replace with your EmailJS template ID
+        'service_6u8niwx',      // EmailJS service ID
+        'template_hdy354j',     // Replace with your EmailJS template ID from dashboard
         form.current!,
-        'your_public_api_key'   // Replace with your EmailJS public API key
+        'bpQ3AKHJKfTNRXR9S'     // EmailJS public API key
       )
       .then(() => {
         setSubmitted(true);
         setName('');
         setEmail('');
         setMessage('');
+        setTimeout(() => setSubmitted(false), 3000);
       })
       .catch((error) => {
         console.error('Email send error:', error);
+        alert('Failed to send message. Please contact directly at adien25@cmc.edu');
       });
     }
   };
@@ -66,25 +76,42 @@ function Contact() {
             <div className="form-flex">
               <TextField
                 required
+                name="from_name"
                 label="Your Name"
                 placeholder="What's your name?"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 error={nameError}
                 helperText={nameError ? 'Please enter your name' : ''}
+                variant="outlined"
+                InputProps={{
+                  style: { color: '#000000', backgroundColor: '#ffffff' }
+                }}
+                InputLabelProps={{
+                  style: { color: '#666666' }
+                }}
               />
               <TextField
                 required
+                name="reply_to"
                 label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 error={emailError}
                 helperText={emailError ? 'Please enter your email or phone number' : ''}
+                variant="outlined"
+                InputProps={{
+                  style: { color: '#000000', backgroundColor: '#ffffff' }
+                }}
+                InputLabelProps={{
+                  style: { color: '#666666' }
+                }}
               />
             </div>
             <TextField
               required
+              name="message"
               label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
@@ -94,6 +121,13 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
               error={messageError}
               helperText={messageError ? 'Please enter a message' : ''}
+              variant="outlined"
+              InputProps={{
+                style: { color: '#000000', backgroundColor: '#ffffff' }
+              }}
+              InputLabelProps={{
+                style: { color: '#666666' }
+              }}
             />
             <Button type="submit" variant="contained" endIcon={<SendIcon />}>
               {submitted ? 'Sent!' : 'Send'}

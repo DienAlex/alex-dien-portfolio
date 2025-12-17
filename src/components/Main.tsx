@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import { Typewriter } from 'react-simple-typewriter';
+import avatar from '../assets/images/ggpicturegrad.png';
 
 // @ts-ignore
 import { particlesJS } from 'particles.js';
@@ -34,7 +35,7 @@ function Main() {
       <div className="about-section" style={{ position: 'relative', zIndex: 1 }}>
         <div className="image-wrapper">
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQG40-yl-QoZfA/profile-displayphoto-scale_400_400/B56ZmWj.RHHUAg-/0/1759167637195?e=1762387200&v=beta&t=tOr4CvjbmjnIYVek-DwOqWy8HQmGABespwkc8wywA8E"
+            src={avatar}
             alt="Avatar"
           />
         </div>

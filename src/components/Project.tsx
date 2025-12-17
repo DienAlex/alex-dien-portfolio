@@ -7,6 +7,8 @@ import mock05 from '../assets/images/webmock5.png';
 import mock06 from '../assets/images/webmock2.png';
 import mock07 from '../assets/images/webmock1.png';
 import mock08 from '../assets/images/Untitled presentation.png';
+import mock09 from '../assets/images/casestudypic.png';
+import mock10 from '../assets/images/gamedevss.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -14,6 +16,16 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects and Case Studies</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Consulting Case Studies</h2></a>
+                <p>A collection of independent consulting case studies addressing diverse business challenges, including marketing campaigns, pricing strategy, user engagement, data decision-making and more. Projects emphasize translating insights into practical, measurable outcomes through experimentation, strategy, and execution.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Coming Soon!</h2></a>
+                <p>A new game project currently in development. More details coming soon. Check-in on my website for updates and release dates.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DienAlex/nda-projects" target="_blank" rel="noreferrer"><h2>Interactive Dashboard</h2></a>

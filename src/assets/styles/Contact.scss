@@ -21,6 +21,22 @@
   fieldset {
     background-color: white;
   }
+
+  .MuiInputBase-input {
+    color: #000000 !important;
+  }
+
+  .MuiInputBase-root {
+    background-color: white;
+  }
+
+  .MuiInputLabel-root {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #5000ca !important;
+  }
 }
 
 label {

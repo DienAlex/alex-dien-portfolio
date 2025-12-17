@@ -8,9 +8,16 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Timeline.scss';
 
 const jobDetails: Record<string, React.ReactNode> = {
+  "Nexus Games": (
+    <ul>
+      <li>Manage 6+ concurrent project schedules, roadmaps, and deliverables using Agile methodologies, ensuring 95% on-time execution and alignment, spanning GTM strategy, internal platforms, and customer-facing systems</li>
+      <li>Own end-to-end execution of 5+ cross-functional products from planning through deployment, coordinating data, engineering, and operations teams to deliver refinement of customer support aligned with company objectives</li>
+      <li>Build internal AI and automations to improve operational efficiency resulting in a ~35% reduction in manual labor</li>
+    </ul>
+  ),
   "Untitled Game Development Project": (
     <ul>
-      <li>Facilitate the end-to-end development in all stages of the projects’ lifecycles, developing features using C# alongside engineering and design teams, executing 8+ feature launches with agile</li>
+      <li>Facilitate the end-to-end development in all stages of the projects' lifecycles, developing features using C# alongside engineering and design teams, executing 8+ feature launches with agile</li>
       <li>Built cross-functional consensus on product priorities utilizing KPIs and Jira to enforce decisions and align team efforts with strategic business goals and optimizing resource allocations</li>
     </ul>
   ),
@@ -56,6 +63,12 @@ const jobDetails: Record<string, React.ReactNode> = {
 };
 
 const timelineItems = [
+  {
+    title: "Product Manager; Product Marketing Manager",
+    subtitle: "Nexus Games",
+    date: "Sept 2025 - present",
+    skills: ["Product Management", "Product Lifecycle", "Product Development", "GTM Marketing", "Product Marketing", "Asana", "Back-end Development", "AI", "Automation", "API Integration", "Data Analysis", "Operations"]
+  },
   {
     title: "Project Manager; Game Mechanics and Vision",
     subtitle: "Untitled Game Development Project",
