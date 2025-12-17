@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.37c16df3.css",
-    "main.js": "/static/js/main.7206e3dd.js",
+    "main.css": "/static/css/main.0b50d419.css",
+    "main.js": "/static/js/main.cad93fab.js",
     "static/js/453.a1b6b378.chunk.js": "/static/js/453.a1b6b378.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/gamedevss.png": "/static/media/gamedevss.f2b7eddd6c49f22e792e.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/casestudypic.png": "/static/media/casestudypic.428d5c26a6198fa10078.png",
     "static/media/webmock7.png": "/static/media/webmock7.ee90374954faff6857d7.png",
     "static/media/webmock6.png": "/static/media/webmock6.158651ac70db8e40d291.png",
+    "static/media/ggpicturegrad.png": "/static/media/ggpicturegrad.8c628f4c954bfe338278.png",
     "static/media/webmock1.png": "/static/media/webmock1.9eb5eddcfd9f6a3012a9.png",
     "static/media/webmock5.png": "/static/media/webmock5.37cd4dd0dcbd95ac6b23.png",
     "static/media/webmock2.png": "/static/media/webmock2.6dd81e8b29a00d17b1e6.png",
@@ -14,12 +17,12 @@
     "static/media/webmock4.png": "/static/media/webmock4.66ea0a56718609db1da3.png",
     "static/media/webmock3.png": "/static/media/webmock3.696bb7a52cd1f379e796.png",
     "index.html": "/index.html",
-    "main.37c16df3.css.map": "/static/css/main.37c16df3.css.map",
-    "main.7206e3dd.js.map": "/static/js/main.7206e3dd.js.map",
+    "main.0b50d419.css.map": "/static/css/main.0b50d419.css.map",
+    "main.cad93fab.js.map": "/static/js/main.cad93fab.js.map",
     "453.a1b6b378.chunk.js.map": "/static/js/453.a1b6b378.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c16df3.css",
-    "static/js/main.7206e3dd.js"
+    "static/css/main.0b50d419.css",
+    "static/js/main.cad93fab.js"
   ]
 }
